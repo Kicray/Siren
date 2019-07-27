@@ -1,6 +1,6 @@
 package com.siren.config;
 
-import com.siren.properties.SwaggerProperty;
+import com.siren.properties.swagger.SwaggerProperty;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.siren.properties;
+package com.siren.properties.swagger;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
