@@ -26,11 +26,14 @@ public class GlobalGeneratorProperty implements Serializable {
     private boolean baseColumnList;     //XML columList
     private boolean kotlin;             //是否生成kotlin代码
 
-    // 自定义文件命名
+    /**
+     * 自定义文件命名 注意 %s 会自动填充表实体属性
+     **/
     private String entityName;
     private String mapperName;
     private String xmlName;
     private String serviceName;
     private String serviceImplName;
     private String controllerName;
+
 }

@@ -17,12 +17,15 @@
 
     <properties>
         <druid.version>1.1.10</druid.version>
-        <swagger.version>2.7.0</swagger.version>
+        <swagger.version>2.9.2</swagger.version>
         <mybatisplus.version>2.1.8</mybatisplus.version>
         <mybatisplus-spring-boot-starter.version>1.0.5</mybatisplus-spring-boot-starter.version>
         <pagehelper.spring.boot.version>1.2.5</pagehelper.spring.boot.version>
         <freemarker.version>2.3.28</freemarker.version>
         <velocity.version>2.0</velocity.version>
+        <commons.io.version>2.6</commons.io.version>
+        <commons.lang.version>3.9</commons.lang.version>
+        <commons.configuration.version>1.10</commons.configuration.version>
     </properties>
     <dependencies>
         <!-- druid 数据库连接池 目前最好用的数据库连接池 -->
@@ -108,6 +111,22 @@
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
             <version>${freemarker.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons.io.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons.lang.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-configuration</groupId>
+            <artifactId>commons-configuration</artifactId>
+            <version>${commons.configuration.version}</version>
         </dependency>
     </dependencies>
 </project>

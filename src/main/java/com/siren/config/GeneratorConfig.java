@@ -13,7 +13,6 @@ import java.io.Serializable;
 public abstract class GeneratorConfig implements Serializable {
     private static final long serialVersionUID = -3457914494913541330L;
 
-
     public void generate(GlobalGeneratorProperty property) throws Exception{
         AutoGenerator autoGenerator = assembleConfig(property);
         setTemplateEngine(autoGenerator);
