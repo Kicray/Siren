@@ -23,7 +23,7 @@
         <pagehelper.spring.boot.version>1.2.5</pagehelper.spring.boot.version>
         <freemarker.version>2.3.28</freemarker.version>
         <velocity.version>2.0</velocity.version>
-        <commons.io.version>2.6</commons.io.version>
+        <commons.io.version>2.7</commons.io.version>
         <commons.lang.version>3.9</commons.lang.version>
         <commons.configuration.version>1.10</commons.configuration.version>
     </properties>
