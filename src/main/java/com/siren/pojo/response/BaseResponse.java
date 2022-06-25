@@ -28,4 +28,7 @@ public abstract class BaseResponse<T> implements Serializable {
         this.message = message;
         this.data = data;
     }
+
+    public BaseResponse() {
+    }
 }

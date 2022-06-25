@@ -86,6 +86,12 @@
             <version>${pagehelper.spring.boot.version}</version>
         </dependency>
         <!--Mybatis plus整合-->
+        <!--多数据源处理-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+            <version>3.3.2</version>
+        </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatisplus-spring-boot-starter</artifactId>
